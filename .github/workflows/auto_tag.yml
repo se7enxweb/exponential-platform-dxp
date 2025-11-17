@@ -25,15 +25,22 @@ jobs:
     timeout-minutes: 30
 
     steps:
+      - name: Generate token
+        id: generate_token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.AUTOMATION_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_CLIENT_SECRET }}
+          owner: ${{ github.repository_owner }}
+
       - name: Check for admin-ui-assets tag
-        if: github.event.repository.name == 'oss'
         uses: octokit/request-action@v2.x
         with:
           owner: ibexa
           repo: admin-ui-assets
           route: /repos/{owner}/{repo}/contents/package.json?ref=v${{ inputs.version }}
         env:
-          GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
 
       # The jq command would return a zero exit status if it was able to filter the input JSON data and
       # produce at least one matching object in the array, and a non-zero exit status if no matching object was found.
@@ -74,7 +81,7 @@ jobs:
   
   action:
     needs: preparation
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     
     steps:
       - name: Install sponge
@@ -153,12 +160,12 @@ jobs:
       # if they exist, to update the values of the keys in the require object.
       - name: Patch composer require versions
         run: |
-          jq --argfile release release.json '
+          jq --slurpfile release <(cat release.json) '
             .require |= (
               to_entries | 
               map({
                 key: .key,
-                value: (if ($release[.key]) then $release[.key] else .value end)
+                value: (if ($release[0][.key]) then $release[0][.key] else .value end)
               }) | from_entries
             )
           ' composer.json > composer.tmp
