@@ -1,18 +1,20 @@
-# Ibexa Open Source Symfony Flex metapackage
+# Exponential Platform DXP (Open Source) Symfony Flex metapackage
 
-This is a metapackage for Symfony Flex-based Ibexa Open Source installation.
+This is a metapackage for Symfony Flex-based Eponential Platform DXP (Stable; Open Source) installation.
 
 ## Installation
 
-To install the latest version of Ibexa Open Source, create a new project from [ibexa/oss-skeleton](https://github.com/ibexa/oss-skeleton):
+To install the latest version of 7x Eponential Platform DXP (Stable; Open Source), create a new project from [se7enxweb/exponential-platform-dxp-skeleton](https://github.com/se7enxweb/exponential-platform-dxp-skeleton):
 
 ```
-composer create-project ibexa/oss-skeleton
+composer create-project se7enxweb/exponential-platform-dxp-skeleton
 ```
 
-Learn more about our commercial product - [Ibexa DXP](https://www.ibexa.co/products).
+Learn more about our commercial product - [7x Eponential DXP](https://www.ibexa.co/products).
 
 ## COPYRIGHT
+Copyright (C) 1998 - 2026 7x. All rights reserved.
+
 Copyright (C) 1999-2025 Ibexa AS (formerly eZ Systems AS). All rights reserved.
 
 ## LICENSE
