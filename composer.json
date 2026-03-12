@@ -2,7 +2,7 @@
     "name": "se7enxweb/exponential-platform-dxp",
     "type": "metapackage",
     "license": "(GPL-2.0-or-later or proprietary)",
-    "description": "A meta package for installing Ibexa Open Source",
+    "description": "A meta package for installing 7x Exponential Platform DXP (Stable; Open Source)",
     "require": {
         "php": ">=8.3",
         "ext-ctype": "*",
