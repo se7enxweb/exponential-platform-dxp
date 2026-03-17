@@ -1,8 +1,8 @@
 {
-    "name": "ibexa/oss",
+    "name": "se7enxweb/oss",
     "type": "metapackage",
     "license": "(GPL-2.0-only or proprietary)",
-    "description": "A meta package for installing Ibexa Open Source",
+    "description": "A meta package for installing Ibexa Open Source (Pure)",
     "require": {
         "php": ">=8.3",
         "ext-ctype": "*",
