@@ -10,7 +10,7 @@
         "doctrine/doctrine-migrations-bundle": "^3.0",
         "ibexa/doctrine-schema": "~5.0.x-dev",
         "ibexa/system-info": "~5.0.x-dev",
-        "ibexa/admin-ui": "~5.0.x-dev",
+        "se7enxweb/admin-ui": "^5.0.5.0",
         "ibexa/admin-ui-assets": "dev-5.0-next",
         "ibexa/content-forms": "~5.0.x-dev",
         "se7enxweb/exponential-platform-dxp-core": "^5.0.1.0",
