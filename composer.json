@@ -13,7 +13,7 @@
         "ibexa/admin-ui": "~5.0.x-dev",
         "ibexa/admin-ui-assets": "dev-5.0-next",
         "ibexa/content-forms": "~5.0.x-dev",
-        "se7enxweb/exponential-platform-dxp-core": "~5.0.x-dev",
+        "se7enxweb/exponential-platform-dxp-core": "^5.0.1.0",
         "ibexa/core-persistence": "~5.0.x-dev",
         "ibexa/core-search": "~5.0.x-dev",
         "ibexa/cron": "~5.0.x-dev",
