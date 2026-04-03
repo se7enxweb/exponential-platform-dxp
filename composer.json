@@ -1,10 +1,10 @@
 {
-    "name": "ibexa/oss",
+    "name": "se7enxweb/exponential-platform-dxp",
     "type": "metapackage",
     "license": "(GPL-2.0-only or proprietary)",
     "description": "A meta package for installing Ibexa Open Source",
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^7.4 || ^8.0 || ^8.1 || ^8.2 || ^8.3 || ^8.4 || ^8.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "doctrine/doctrine-migrations-bundle": "^3.0",
@@ -81,7 +81,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.6.x-dev"
+            "dev-master": "4.6.0.x-dev"
         }
     }
 }
