@@ -11,7 +11,7 @@
         "ibexa/doctrine-schema": "~4.6.x-dev",
         "ibexa/system-info": "~4.6.x-dev",
         "se7enxweb/admin-ui": "~4.6.x-dev",
-        "ibexa/admin-ui-assets": "~4.6.0@alpha",
+        "se7enxweb/admin-ui-assets": "~4.6.0@alpha",
         "ibexa/content-forms": "~4.6.x-dev",
         "se7enxweb/exponential-platform-dxp-core": "~4.6.x-dev",
         "ibexa/core-persistence": "~4.6.x-dev",
