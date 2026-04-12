@@ -72,7 +72,7 @@
     "extra": {
         "branch-alias": {
             "dev-master": "5.0.x-dev",
-            "dev-5.x-LB": "5.0.x-LB-dev"
+            "dev-5.x-LB": "5.0.0.x-dev"
         }
     }
 }
