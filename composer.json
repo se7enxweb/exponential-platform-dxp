@@ -11,7 +11,7 @@
         "ibexa/doctrine-schema": "~5.0.x-dev",
         "se7enxweb/system-info": "~5.0.x-dev",
         "se7enxweb/admin-ui": "^5.0.5.0",
-        "ibexa/admin-ui-assets": "dev-5.0-next",
+        "se7enxweb/admin-ui-assets": "5.0.0.x-dev",
         "ibexa/content-forms": "~5.0.x-dev",
         "se7enxweb/exponential-platform-dxp-core": "^5.0.1.0",
         "ibexa/core-persistence": "~5.0.x-dev",
