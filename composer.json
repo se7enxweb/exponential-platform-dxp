@@ -20,7 +20,7 @@
         "ibexa/design-engine": "~5.0.x-dev",
         "ibexa/fieldtype-matrix": "~5.0.x-dev",
         "ibexa/fieldtype-query": "~5.0.x-dev",
-        "ibexa/fieldtype-richtext": "~5.0.x-dev",
+        "se7enxweb/fieldtype-richtext": "^5.0",
         "ibexa/graphql": "~5.0.x-dev",
         "ibexa/http-cache": "~5.0.x-dev",
         "ibexa/i18n": "~5.0.x-dev",
