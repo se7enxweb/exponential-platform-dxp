@@ -15,6 +15,7 @@
         "ibexa/content-forms": "~4.6.x-dev",
         "se7enxweb/exponential-platform-dxp-core": "~4.6.x-dev",
         "se7enxweb/legacy-bridge": "^4.0.0.0",
+        "se7enxweb/exponential-legacy-installer": "^2.2.5",
         "ibexa/core-persistence": "~4.6.x-dev",
         "ibexa/core-search": "~4.6.x-dev",
         "ibexa/cron": "~4.6.x-dev",
