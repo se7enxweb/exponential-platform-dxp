@@ -13,7 +13,7 @@
         "se7enxweb/admin-ui": "^5.0.5.0",
         "se7enxweb/admin-ui-assets": "5.0.0.x-dev",
         "ibexa/content-forms": "~5.0.x-dev",
-        "se7enxweb/exponential-platform-dxp-core": "^5.0.1.0",
+        "se7enxweb/exponential-platform-dxp-core": "5.0.x-dev",
         "se7enxweb/legacy-bridge": "5.x-dev",
         "se7enxweb/exponential-legacy-installer": "^2.2.5",
         "ibexa/core-persistence": "~5.0.x-dev",
