@@ -14,7 +14,7 @@
         "se7enxweb/admin-ui-assets": "~4.6.0@alpha",
         "ibexa/content-forms": "~4.6.x-dev",
         "se7enxweb/exponential-platform-dxp-core": "~4.6.x-dev",
-        "se7enxweb/legacy-bridge": "4.x-dev",
+        "se7enxweb/legacy-bridge": "^4.0.0.4",
         "se7enxweb/exponential-legacy-installer": "^2.2.5",
         "ibexa/core-persistence": "~4.6.x-dev",
         "ibexa/core-search": "~4.6.x-dev",
